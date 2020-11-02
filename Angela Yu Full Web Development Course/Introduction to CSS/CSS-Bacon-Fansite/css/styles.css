@@ -1,0 +1,38 @@
+/* *****************************************************TAG SELECTORS**************************************************** */
+
+h1 {
+    color: red;
+    font-size: 75px;
+}
+
+img:hover {
+    background-color: gold;
+}
+
+
+/* ****************************************************CLASS SELECTORS**************************************************** */
+
+.bacon {
+    background-color: red;
+}
+
+.broccoli {
+    background-color: green;
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+
+/* classes use the . for */
+
+
+/* ****************************************************ID SELECTORS**************************************************** */
+
+#heading:hover {
+    color: blue;
+}
+
+
+/* hashtag is used for ids */

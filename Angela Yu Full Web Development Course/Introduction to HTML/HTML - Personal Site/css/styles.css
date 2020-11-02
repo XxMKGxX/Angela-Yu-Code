@@ -1,0 +1,31 @@
+body {
+    background-color: #ffcbcb;
+}
+
+h1 {
+    color: #70adb5;
+}
+
+
+/* active makes the text red once its been clicked on */
+
+h1:active {
+    color: red;
+}
+
+h3 {
+    color: #407088;
+}
+
+hr {
+    /* Top Right Bottom Left */
+    border-style: dotted none none none;
+    /* The radius of the dots is half the computed value of the same side's border-width*/
+    border-width: 10px;
+    width: 5%;
+    border-color: #132743;
+}
+
+table {
+    padding: 10px;
+}
