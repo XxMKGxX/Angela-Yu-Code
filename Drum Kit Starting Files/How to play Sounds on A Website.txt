@@ -1,0 +1,17 @@
+-- We now want to play sounds on our website using Javascript. 
+--We can try to implement this is by writing this code:
+    var audio = new Audio('audio_file.mp3');
+    audio.play();
+
+--So what this new audio input does is it actually creates an <audio></audio> tag
+--If we wanted to trigger the event listener we have to "this" identity in order for it to trigger a specific button
+--To see this in action:
+    function handleClick() {
+    console.log(this)
+}
+
+--That way we can see in the console which button got triggered
+--Step 1: We are looking for all of the elements inside the document that have the class drum
+--Step 2: Once the loop has gone through the buttons, it has added an event listener to all the buttons.
+--This is not just limited to just console log. We can also change the style of that clicked button
+--i.e this.style.color = "white";

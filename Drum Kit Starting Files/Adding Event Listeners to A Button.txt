@@ -1,0 +1,21 @@
+--When making sure that our Javascript file is linked to our rest of project,
+  we can use alerts to do so.
+--But keep in mind that you use script with a=the attribute src in order to link that Javascript file.
+
+// Button Click 
+-- We createcd a function that helps us to see that the buttons work.
+--We put a document.querySelector to target a button. Note that its the first button
+--Then we add an Event Listener so that it can agree that the button was clicked and shows a result
+--An Event Listener sets up a function to be called whenever the specified event is delivered to the target i.e the document.
+--It has 2 parameters which are clicks and function name
+--Be aware that when using an event Listener, we do not want to call the function like we normally do.
+--Rather we want to pass it in. That means we do not want to put () inside the event Listener.
+
+//For Loop
+for (var i = 0; i < document.querySelectorAll(".drum").length; i++)
+
+    document.querySelectorAll(".drum")[i].addEventListener("click", handleClick)
+
+function handleClick() {
+    alert("I got clicked")
+}

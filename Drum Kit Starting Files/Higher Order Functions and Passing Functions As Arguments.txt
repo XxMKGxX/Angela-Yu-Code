@@ -1,0 +1,24 @@
+--When it comes to customising HTML elements we can add an EvenListener to make a function that can operate on our localy saved file.
+--For Example varname.addEventListener("click, function() {
+    console.log("I got clicked)
+})
+--This sort of function is annonymus meaning it cant be called.
+--Rather it just works on that specific line of code 
+--EvenListener has 2 inputs, input 1 loooking for its given task and input 2 executing its given functionality.
+
+//Calculator 
+--to make a quick calculator we can do This
+
+    function add(num1, num2) {
+        return num1 + num2;
+    }
+
+    function multiply(num1, num2) {
+        return num1 * num2;
+    }
+
+    function calculator(num1, num2, operator) {
+        return operator(num1, num2);
+    }
+
+--Wht this operator input does is that it takes in the name of a function and puts it into work when the calculator function is called.
