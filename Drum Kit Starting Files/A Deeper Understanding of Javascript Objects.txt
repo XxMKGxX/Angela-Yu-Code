@@ -1,0 +1,26 @@
+A Deeper Understanding of Javascript Objects
+
+--We can create properties inside our variables. 
+--Example:
+var bellBoy1 = {
+    name: "Timmy",
+    age: 19,
+    hasWorkPermit: true,
+    languages: ["French", "English"]
+}
+--bellBoy1 being the object and name being the property of the object
+--i.e my name is + bellBoy1.name
+
+--In order to shorten the code length we can make a factory that keeps on making bellboys
+--This is known as a constructor function
+--The name has to be capitalised its not camel casing
+
+//Factory code:
+    function BellBoy (name, age, hasWorkPermit, languages) {
+        this.name = name;
+        this.age = age;
+        this.hasWorkPermit = hasWorkPermit;
+        this.languages = languages;
+    }
+--To initialise this object we say:
+var bellBoy1 = new BellBoy("Timmy, 19, true, ["French", "English"]);
