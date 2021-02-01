@@ -1,0 +1,6 @@
+How to Incorporate JQuery into Websites.
+
+--Like Bootstrap css library, JQuery has its own place to download its library as its files or a cdn.
+https://jquery.com/download/ (Click the link in the description below)😂
+
+--When it comes to using popular cdns it makes the loading screens faster because the viewer might have it cached inside their browser.

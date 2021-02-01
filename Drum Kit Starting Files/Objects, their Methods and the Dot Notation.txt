@@ -1,0 +1,18 @@
+Objects, their Methods and the Dot Notation.
+
+--Once we have created an object, we can give it a method.
+--That way it can do something once we call it.
+--To simplify it we can make put it under the var as an object e.g name (from the previuos lesson)
+
+
+To illustrate:
+    moveSuitcase: function() {
+        alert("May I take Your Suitcase?");
+        pickUpSuitcase();
+        move();
+    }
+
+--This annonymous function works for a specific variable and cant work for other variables unless it is put in them.
+--To call this method we just us .moveSuitcase(); to call that specific method.
+--NOTE that the difference is that method have () whilst properties are just empty.
+--To put it inside the constructor function we put as this.moveSuitcase.

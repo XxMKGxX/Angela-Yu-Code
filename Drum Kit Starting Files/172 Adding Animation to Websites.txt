@@ -1,0 +1,26 @@
+Adding Animation To Websites.
+
+--When clicking the keys of out drum kit, we would like for it to pop up to help the user know that they are clicking the right key.
+--So the nice thing we could try is to create a function that has the parameter currentkey
+
+    function buttonAnimation(currentKey) {
+
+    }
+
+--By doing this we can put this function inside our addEventListener by just calling it buttonAnimation(buttonInnerHTML)
+--We do the same thing inside the keypress area but by putting event.key as its parameter.
+
+--When we want to get a specific class for that specific drum letter we can just:
+    document.querySelector(".w");
+    //This will give out the w drum.
+--Inside the code we want to make sure that we concantinate the current key
+    i.e document.querySelector("." + currentKey)
+--This will work i.e it shows the fact that you clicked a button.
+--But we still need it to clear that box shadow after we have clicked or pressed the button.
+--We can use the setTimeout() method to do so 
+Example:
+    function myFunction() {
+        setTimeout(function) {alert("Hello"); }, 3000
+    };
+NOTE the 3000 is 3 seconds.
+--What this does is that it shows an alert after 3 secods when a button with that function is clicked.
