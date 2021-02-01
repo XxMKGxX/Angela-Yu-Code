@@ -1,0 +1,10 @@
+Adding and Removing Events with JQuery
+
+--The cool thing about JQuery is that we can add new elements without having to chabge our code.
+    Example:
+        $("h1").before("<button>New</button>");
+--This is creating a button before the H1 but its not in our code.
+--Its inside the console for that specific page.
+--Remember its the before and after methods that helps us to do that.
+--We have prepend and append as well.
+--To remove the elements we can just simply say .remove or rather use the remove method.

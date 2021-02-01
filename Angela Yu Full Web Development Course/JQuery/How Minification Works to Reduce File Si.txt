@@ -1,0 +1,7 @@
+How Minification Works to Reduce File Size
+
+--The cdns are all code written for us. 
+--In order to reduce the size of the files the lines of code, comments written have been removed.
+https://www.minifier.org/ (To help see the cdns)
+--The lower the size of the code we make the website load faster.
+--The minified version of our js can be customized when we download the library as well the readable version of it.

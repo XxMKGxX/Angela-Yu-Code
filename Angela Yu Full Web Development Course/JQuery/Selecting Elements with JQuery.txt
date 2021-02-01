@@ -1,0 +1,7 @@
+Selecting Elements with JQuery
+
+--The $ does the same thing as the document.querySelector() were the contents inside the () can be selected as an element.
+--This helps the code to be very specific. 
+--When selecting css classes this can be done just by adding a . after the element to specify which element want to be selected for change.
+--The $ also replaces document.querySelectorAll.
+--Therefore there is not difference in selecting all or selecing one.

@@ -1,0 +1,12 @@
+How to implement JQuery into a Website
+
+--JQuery is a library like Bootstrap. 
+--This means that we can use cdn to run that library on our website.
+
+--Here is an example of code.
+$("h1").css("color", "red");
+-- The h1 color is being changed to red(that is its text color.)
+--The position of the JQuery script tag is important. 
+--Code is read from top to bottom. 
+--So in order for the code to run make sure you place the tag is placed above the index.js
+--Do not include it inside the head section of our HTML

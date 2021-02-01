@@ -1,0 +1,21 @@
+Adding Event Listeners with JQuery
+
+--It is simple to use event Listeners via the JQuery library
+    Example: 
+        $("h1").click(function(){
+            $("h1").css("color", "purple");
+        }); 
+--This will turn the color of the h1 to purple once it has been clicked.
+--We can change the color of the h1 with button by doing this:
+    $("button").click(function() {
+        $("h1").css("color", "purple");
+    });
+--This saves us from a very long list of code.
+--We can have keypress inputs to take place as well.
+    Example: 
+            $("input").keypress(function() {
+                console.log(event.key);
+            });
+--Thus showing us what key got pressed.
+--If we do not want it to just focus on the input, we can just put document(without the "") in order for it to select the whole document.
+--There are different kinds of events we can look for. Check the mdn Documentation.
