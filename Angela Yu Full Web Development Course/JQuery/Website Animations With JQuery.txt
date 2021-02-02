@@ -1,0 +1,19 @@
+Website Animations With JQuery.
+
+--There are animations that can work on JQuery
+    Example: 
+        $("h1").hide();
+--This will hide the h1 once a certain event has taken.
+--The .hide method makes that possible.
+--To make it reaper we can use the .show() method.
+--There is also a toggle method that helps us to make it dissapear and reapear.
+--Hiding it removes the element from the flow of code.
+--To show a certain like animation we use the fadeOut method.
+--This reduces the opacity and then dissapear.
+--They also come with fadetoggle. This toggle with the aid of another html element when it has an event listener in place.
+--When we want to use a certain method that can use css values, we use .animate method.
+    Example:
+        .animate({opacity: 0.5}); This is like a inline css type of thing.
+--When using this method we can only use css rules with numeric value.
+--We can make a chain of commands by adding a method after each one.(dont worry it wont do it all at the same time.)
+--Never memorise use documentation.
