@@ -1,0 +1,16 @@
+--The first command is ls(list).
+--This lists items that are inside a certain directory.
+--You will be able to see which directory you are in by whatever shows after the colon.
+--The starting part when you open the terminal is always at the user folder.
+--If you want to change the directory we can us the cd(change directory) command.
+    Example
+        cd Documents
+--To write it faster we just put a / for it to complete writting the name of the folder.
+--Make sure to put enough letters for it to make sense.
+--If we want to go back to our root directory we type cd ~ (takes us back to user folder.)
+--We can write multiple folder names in one line of the terminal.
+    Example;
+        cd Documents/My_Games/Rise
+--You can go through your entire history of your command line by pressing the up arrow.
+--To shorten it even further, we use . to go back to that specific directory(cd ..)
+--If you want to change part of that directory, use the alt key to get a cursor that helps you a certain part of that directory.

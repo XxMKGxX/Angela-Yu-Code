@@ -1,0 +1,8 @@
+Command Line Hyoer Setup.
+
+--This will help us to give commands to the computer without the need of a graphical user interface.
+--We are gonna be using hyper terminal because it is more customisable and poerful compared to the normal terminal on windows.
+--Hyper is an Electron-based terminal.
+--This was built on HTML, CSS and Javascript.
+--And the beautiful thing is that you can add themes and plugins from this command line.
+--git bash allows us to interact with the command line.
