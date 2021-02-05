@@ -1,0 +1,11 @@
+--In order for us to check the directory that we are in we use pwd(print working directory),
+--This will print it as this: /Users/Conrad Kandoro
+--The starting point is known as the root and it consists subfolders(e.g Users being one of them).
+--For it to autocomplete when finding a folder, press the TAB button once you have given it a few characters.
+--Keep in mind thar command line is for power users. 
+--They give us access to many things that the GUI(Graphical user Interface) has hidden from us.
+--"With Great Power comes great responsibility"
+--use the touch command to create a new file, making sure you put the extension name.
+--Now we have been using the browser to run our code but we can use node to run it from the computer
+--We use this command: node index.js
+--What this does is that its telling the computer to use node to run that file.

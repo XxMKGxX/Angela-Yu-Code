@@ -1,0 +1,16 @@
+NPM Package Manager.
+
+--This help with installing external modules that were written by different people who did not contribute with node.
+--Its stand For Node Package Manager.
+--Instead of having to use our energy in creating all these modules we can use the module someone else has done and incorporate it into our projects.
+--We want to initialise the manager and this can be done by writing: npm init.
+--This will run a wizard or a setup on the terminal.
+--Once completed it will create package.json.
+--Inside the file we will find what we wrote in that intallation process.
+--The more packages we incorporate, their details will be found inside that file.
+--To get these packages go to: npmjs.com
+--The packages will give a description as well as its uses and related packages that you can give a go.
+--Like the fs method we have to install it.
+--To install it we write: npm install packagename
+--Once installed it will apear on the json file as a dependancy.
+--The json file organises the packages and file projects installed.
