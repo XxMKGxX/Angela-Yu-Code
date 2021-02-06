@@ -1,0 +1,7 @@
+What is Express?
+
+--Express is a node framework.
+--Like JQuery being a library for javascript to make it easier to use it, Express does the same thing for node.
+--Think node as a regular screwdriver and Express as a motorised screwdriver.
+--They both do the same thing but the mottorised is easier to use when having to screw in a lot of screws.
+--It makes you write less repetative code on your web apps.

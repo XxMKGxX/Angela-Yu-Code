@@ -1,0 +1,11 @@
+--With the original route(the homepage "/"), It is used with the get method but we can have different routes for it.
+--When it comes to making these routes we have to think ahead of time.
+--If for example someone wants to contact us, we create a get method for that contact details page
+    app.get("/contact", function(req, res){
+        res.send("Contact Me at:");
+    });
+--In the end when we type in /contact after localhost it takes us to another route which was made the code written earlier.
+--You can set up as many routes as you wish.
+--nodemon allows us to have our server restart on its own when certain code in our js has changed.
+--Here is the install code:npm install -g nodemon
+--once install we just need to type in nodemon javascript file name.js

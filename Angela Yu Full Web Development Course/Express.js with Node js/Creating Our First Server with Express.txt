@@ -1,0 +1,17 @@
+Creating our first Server With Express
+
+--We first of start off with creating project with npm i.e we initialise our project.
+--npm init(done inside the command line.)
+--To install express we check out its documentation(https://expressjs.com/)
+--Like npm packages we can install it by stating npm install express
+--This will make it as a dependancy for our project as well as inside the node modules.
+--Once that is done we need to reqiure express.
+    const express = reqiure("express");
+    const app = express()//This is a function that represent the express module that uses the word app.
+    app.listen(3000)//This tells it to listen to any http request sent to our server(3000 is the port)
+--A port is a channel that we have tuned our server to.
+--We can add a function to help us see that the server has started.
+    app.listen(3000, function() {
+        console.log("server has started on port 3000");
+    });
+--To open it in the browser we type in localhost:3000.

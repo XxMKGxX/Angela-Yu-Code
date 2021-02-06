@@ -1,0 +1,13 @@
+Handling and Responding Responses:the GET Request.
+
+--This server is the root of a website jsut like google.com
+--Its the homepage of our server.
+--Loading a website means a request has been sent to the server so that the browser can get access to that specific location.
+--To resolve this issue we use the method get which has a parameter that states the location of our root(reperesented by a /)
+--Once that has been done we create a callback function that tells the server what to do when that request has been made.
+--This function takes in 2 parameters which are request and response
+--We can see the result just by loging the request parameter.
+--NOTE THAT: this method is put above the listen method. And when seeing changes makes sure to restart the server in order for it to work.
+--The response parameter is given the job once the request parameter has been executed.
+--So in the end we can type in response.send("Hello") inside the function in order for it to write back to us Hello
+--We can send html as well instead of just text.
