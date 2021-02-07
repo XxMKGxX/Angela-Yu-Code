@@ -1,0 +1,11 @@
+Responding To Requests With HTML files.
+
+--The forms tag can be used inside the html file.
+--When created make sure to use action and method.
+    action = "index.html" method="POST"
+--inside the input tags we use placeholder attribute to help us see what it that represents that specific input
+--In order to send that html file to our js file we cant use the send method.
+--Rather we use res.sendFile() method which transfers a file at the given path when a get request is reqeuired.
+--There is only one parameter that is used for the location of that file.
+    res.sendFile(__dirname + "/index.html")
+--What this does is that it just specifies the directory its in and the we add the name of the file for it to send it.

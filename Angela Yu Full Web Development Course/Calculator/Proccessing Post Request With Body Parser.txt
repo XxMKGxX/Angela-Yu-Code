@@ -1,0 +1,28 @@
+Proccessing Post Request With body parser.
+
+--The Post Method found insid the form tag is allowing me to send the info somewhere.
+--In order fo us to send this data to our homepage we can just remove the action attribute.
+--The thing is that our server cannot send post in its current state.
+--By adding the app.post method we can now give out a response that has been made when posted.
+--At the moment the form data still is not being displayed even though the data has been posted.
+--There is a npm package known as body parser that can help us with that.
+--This will allow us to get access to certain variables and properties found inside our server.
+--NOTE THAT we need to require this package in order for us to incorporate it.
+--This can be used with express and it also has different modes(meaning different formats we can receive that data)
+    const bodyparser = require("body-parser")
+    const app = express()
+    app.use(bodyparser.urlencoded({
+        extended: true
+    }))
+--This is the code that is needed when using body parser.
+--Now that this has been added we can create our calculator properly 
+    app.post("/", function(req, res) {
+
+    var num1 = req.body.num1;
+    var num2 = req.body.num2;
+    var result = num1 + num2;
+
+    res.send("The result is " + result)
+});
+--To make sure its numeric we put in Number(req.body.num1);
+--NOTE THAT bodyparser transfers it as text.
