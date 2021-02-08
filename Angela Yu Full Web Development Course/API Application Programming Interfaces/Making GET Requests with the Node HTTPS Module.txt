@@ -1,0 +1,14 @@
+Making GET Requests with the Node HTTPS Module.
+
+--The user browser makes a request to our server then our server should return the data requested.
+--But to show other data, our server makes a request to another persons server and that server responds back that data to our server.
+--This will be done via their API.
+--NOTE THAT the request moduele that was used for receiving data fro another websites api is no longer in use.
+--We now use the https module 
+    const https = require("https");
+--Once required we add this module inside our callback function for get and then add a url for this module within its get method.
+--The url can be from the postman api which was worked on earlier.
+--make sure you put it as a string and add https:// inside the string before api otherwise it will not work.
+    https.get("https://api.openweathermap.org/data/2.5/weather?q=Harare&appid=163659d072459ce0f09d45efb7800a50&units=metric")
+--Once that is done we can create a callback function to make a response.
+--Since we have an earlier res we dont want to add another inside the functions(use response. This will be considered in the next lesson.)

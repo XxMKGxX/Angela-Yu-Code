@@ -1,0 +1,25 @@
+API Enpoints, Paths and Parameters.
+
+--When using APIS think of 1. Paths
+                           2. Endpoints
+                           3. Parameters
+
+--1. Endpoints: Everything that interacts with a server will have an Endpoint.
+     Endpoints have url for us to get use.
+     https://api.kanye.rest(This will provide random quotes by Kanye West)
+
+--2. Paths:  Help us to narrow down to specific data for that API
+     With a joke API we can customise the kind of jokes we wanna get back.
+     different apis can have customisable options for the type of content we want.
+     https://sv443.net/jokeapi/v2/(jokeAPI)
+     The endpoint is up to the last /
+     The path is stated after the /
+     This is done when are specifying a path for that particular endpoint.
+     So the endpoint is the root and the parameter or path is the branch of that root.
+
+--3. Parameters: Help us to narrow down to specific data for that API.
+     These are normaly for finding a query that does not have a path.
+     They come after the ? which is from the previous path.(?contains=debugging)
+     debugging being the query and contains is the key of that path.
+     we can have more than one query.
+     the first query is after the ? then the next follow after the & symbol.

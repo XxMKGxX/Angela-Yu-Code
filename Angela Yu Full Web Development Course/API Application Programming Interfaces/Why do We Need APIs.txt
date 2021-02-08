@@ -1,0 +1,12 @@
+Why do we need API's?
+
+--This is know as Application Programming Interface.
+--An API is a set of commands,functions, protocols, and objects that programmers can use to create software or interact with an external system.
+--This module will teach us how to create a email signup Application and a weather Application.
+--We will be able to save the input data of a user and then be able to view it in mailchimp.
+--These help us to get data from a certain website and then implement it into our website without having to constantly check for any updates.
+--For example, facebook has an API that helps web apps like tinder to get access of friends the person may know.
+--There are serious api data to use and not serious(pokeAPI) apis.
+--Be aware that their is certain data that we can get access to but not everything.
+--These APIs will give you a list of things that you can get access to like a menu for a restraunt.
+--JQuery as well is an API(we use objects, functions and methods.)
