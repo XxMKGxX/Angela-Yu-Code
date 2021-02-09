@@ -1,0 +1,7 @@
+Using Express to Render a Website with live API data
+
+--Since conosle logging provided the info we needed, we can now send the data back to our users.
+--We responding through the get method's function not the https' get method.
+--NOTE THAT res.send can only be used once. If used more than once it will crash our server.
+--Delete the first that was put inside the app.js and then run the server.
+--Then we use res.write() because it can be used more than once.
