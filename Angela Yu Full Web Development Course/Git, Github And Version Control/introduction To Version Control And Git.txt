@@ -1,0 +1,9 @@
+Introduction to Git and Version Control
+
+--This module will show me the functions of GIT and Github's uses.
+--We also will be learning how to use it in code and the command line.
+--How to use version control, how to clone repositories, how to fork, pull requests and make repositories.
+--Version Control: Code file with a few lines of code in it. Put it under Version Control using git and save points are created.
+                   One day a savepoint is corrupt and its better to rollback to the prevous savepoint.
+                   This can be done using GIT.
+                   You can compare the savepoints

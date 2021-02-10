@@ -1,0 +1,6 @@
+Github and Remote Repositiories.
+
+--git remote add origin(origin is the name of the remote.) https://github.com/XxMKGxX/Story.git
+--Once done we can push this repositoryto the remote repository
+--git push -u origin master(the -u links up with both the the local and remote repository)
+--Once that is done we can now open github from the website and see the repository created.
