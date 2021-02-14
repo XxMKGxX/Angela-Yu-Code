@@ -1,0 +1,17 @@
+First EJS Templates
+
+--EJS Stands for Embedded Javascript Templating.
+--ejs.co helps us to get started with our coding, providing documentation as well as installation processes.
+--We learn how to use EJS with express.
+--To install it we use npm install ejs using our terminal.
+--Next thing to do is to set our apps view engine to ejs.
+    app.set('view engine', 'ejs')
+--When placing that line of code make sure to put it under the const app line of code.
+--If placed above you will get errors that state that app is not defined
+--Then inside our get method we add in res.render which uses the view engine to render a particular page.
+    res.render('index', {foo:'FOO'});// index being the nameof ejs file adn foo being a javascript object and used as a variable name for the ejs file.
+--That index will be a index..ejs page not index.html
+--This file though has to be included inside a dir known as views.
+--Inside this ejs file, you are writing html code.
+--Inside the ejs file we are adding a marker for it to know that it is a variable that is playing a part.
+    This marker looks like this: <%= var name %>

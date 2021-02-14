@@ -1,0 +1,8 @@
+Running Code inside the EJS Template
+
+--For future research use ejs docs to give you ways to implement tags.
+--At this point we want our h1 style to change depending on the kindOfDay value i.e Weekend different from Weekday.
+--Since control flow code involves if else statements, we want ejs to take in that code in order for it to function.
+-- <% %>(scriplet tag) This tag allows us to create control flow code inside our ejs file.
+--Bear in mind that every line of code that has javascript inside the ejs file has to have this tag which excludes the html lines of code.
+--They work on a line by line basis
