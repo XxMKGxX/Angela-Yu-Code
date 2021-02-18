@@ -1,0 +1,24 @@
+Understanding Templates vs Layouts.
+
+--When submiting our new item it still goes back to the home route.
+--This can be resolved by adding a dynamic value to the button in front of its name
+--This will help us decifer if this itemis going inside our work list or to do list.
+--Once seen we can make an if statement that has the key value involved.
+    if (req.body.list === "Work") {
+        workItems.push(item)
+        res.redirect("work")
+    } else {
+        items.push(item);
+        res.redirect("/")
+    }
+--Ejs allows us to create layouts were we can have certain text and css on multiple pages of our website.
+--This can be implemented by putting headers and footers.
+--This is the general loadout:
+    <%- include('header'); -%>
+    <h1>
+        Title
+    </h1>
+    <p>
+        My page
+    </p>
+    <%- include('footer'); -%>

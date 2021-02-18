@@ -1,0 +1,12 @@
+CSS Stylsheets inside our website.
+
+--Be aware that express does not always take every file inside the project folder.
+--If we used the link for css stylsheets inside the ejs file it will not apply it.
+--It serves the main package file(app.js) and the views folder which was brought up inside the package.json file.
+--This is because it is a static file.
+--In order to apply these file we need to tell express to serve up these static files.
+--Developers create a folder called public which can act as a serving point for all our js, images and css files.
+--Under app.use(bodyparser) inside the app.js file we type in app.use(express.static("public")); Where public is the name of the static folder which contains our static files.
+--Once that is done we can type in the link inside our ejs file.
+--To remove auto suggest we type in autocomplete="off".
+--There is reference to css selectors these will focus on the elements and the types that can be changed.

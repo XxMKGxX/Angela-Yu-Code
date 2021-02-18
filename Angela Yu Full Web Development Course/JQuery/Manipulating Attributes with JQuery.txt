@@ -1,0 +1,12 @@
+Manipulating Attributes with JQuery
+
+--Attributes are the inisde of the html elements. 
+Example src and href
+--So in order for us to manipulate them with Javascript, we use attr method to do so.
+    Example:
+        $("img").attr("src");
+--This gives us the value of the attribute but we can also set the value of the attribute.
+    Example: 
+        $("a").attr("href", "https://www.yahoo.com");
+--This takes all the a tags and changes their links to yahoo.com
+--Keep in mind that a class is also an html attribute.

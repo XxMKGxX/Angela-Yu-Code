@@ -1,0 +1,14 @@
+What Is JQuery?
+
+--This is known as the Javascript language that wil prevent us from breaking our fingers (lol).
+--Javascript came to a point it got a lot of code written for a simple task to do.
+--John Resick thought to himself that this was to complex for nothing.
+--He is the man who introduced JQuery.
+--Code that was too long to write would be shortened greatly.
+    Example Code Of JQuery:
+        $("button").click(function() {
+            $("h1").css("color", "red");
+        })
+--Its a library that he wrote to use it to make our coding much easier.
+--So from document.querySelector("h1") to this JQuery("h1")
+--In the earlier example we noticed a $. That is the document.querySelector

@@ -1,0 +1,31 @@
+Understanding Callbacks and How to respond to Events
+
+--Higher Order Function are functions that are able to take a function as an input e.g addEventListener
+--A callback Function is the function that is used as the input in the Higher order function.
+--This waits for other parts of the code to run then it is called back and executed.
+--The event input inside a function can be used like a consolelog attribute. 
+--That way we dont have to like write an alert to tell us e.g a click was made.
+--The cool thing about functions is that we can use that input to add additional content that we could not put
+--For example:
+    function sayHi(to) {
+        console.log("Hello " + to);
+    }
+    once called:
+    sayHi("Conrad")
+--This will push out the result Hello Conrad.
+--What this tells us is that the name of the input does not matter as long as it does not conflict with built in inputs.
+
+--Now this is how the event listener does:
+    function anotherAddEventListener(typeOfEvent, callback) {
+        //Detect the code
+    //Once detected create an object
+        var eventThatHappened = {
+            eventType = "keypress",
+            key = "p",
+            durationOfkeypress = 2,
+        }
+        //Then we call back that method
+        //But if the event that happened != typeOfEvent we do not callback that method
+    callback(eventThatHappened)
+    //This way will help us to get the info we need to see what triggered that Event Listener.
+    }

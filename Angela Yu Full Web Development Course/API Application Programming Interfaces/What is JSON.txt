@@ -1,0 +1,7 @@
+Javascript Object Notation.
+
+--This is quite similar to the javascript objects were they have key: value,
+--We can embed these objects inside other objects.
+--unlike json the keys inside javascript do not have strings inside the objects
+--The reason its used is it will be put in a format that is readable and collapsebale into a single string.
+--JSON is lighter weight and easy to turn back to javascript than other printing formats.

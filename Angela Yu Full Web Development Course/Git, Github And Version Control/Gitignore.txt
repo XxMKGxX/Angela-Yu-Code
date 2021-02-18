@@ -1,0 +1,12 @@
+Gitignore
+
+--The whole objective of this command is to make sure we select the files we do not want to commit to the local or remote repositories.
+--The basic files we use like settings family photos etc. can be pushed to our repositories.
+--In order to make this gitignore file we us touch .gitignore(makesure to spell it correctly)
+--To undo a mistake made inside the terminal we type in git rm --cached -r .(rm is remove; . is to select all)
+--The gitignore file has rules such as # sign is used to comment out. 
+--The * is used to say all the files with a certain extension i.e .txt will be ignored when committed.
+--To add the files we make sure the spelling of the file names are the same as inside the gitignore file.
+--NOTE THAT these haved to be put in each line like so: secrets.txt
+                                                        file2.txt
+--

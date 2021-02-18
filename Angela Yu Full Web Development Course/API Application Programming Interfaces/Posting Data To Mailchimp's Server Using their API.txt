@@ -1,0 +1,12 @@
+Mailchimp's SERVER.
+
+--https://mailchimp.com/developer is where you will get access to their documentation based on their api.
+--Creating an account in mailchimp allows us to get access to 2 things: 1. To create an API key
+                                                                        2. To get a list Id 
+//API Key
+// 994a2df8f7d67031660d43fbca9f61da-us7
+
+//List ID
+// afd121f4e7
+--There are code examples inside their documentation that helps us to understand the process of using their API
+--Keep in mind that when using Javascript Objects with methods we do not use ; instead we us , to seperate each method.

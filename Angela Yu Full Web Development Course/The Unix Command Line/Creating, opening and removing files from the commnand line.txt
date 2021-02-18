@@ -1,0 +1,12 @@
+//Creating a directory
+
+--We start of with the command mkdir(make directory)
+--Then we give that directory a name.It can be anything.
+--if we want to create a file we use the touch command.
+    Example:
+        touch text2.txt
+--Remember to specify the type of file(txt in the example.)
+--To run it from the command line we use start text2.txt
+--The cool is that we can specify the app we want to use to open that file.
+-- We use start -a AppName text2.txt
+--To remove a file we use rm(remove)

@@ -1,0 +1,16 @@
+How to Switch Statements in Javascript
+
+--A switch statement is like a railway switch
+--It will take the code on a different track depending on the value of a variable.
+--Here is the general code given:
+    var buttonInnerHTML = this.innerHTML;
+    switch (buttonInnerHTML) {
+        case "w":
+            var audio = new Audio('sounds/tom-1.mp3');
+            audio.play();
+            break;
+        case "a":
+            var audio = new Audio('sounds/tom-2.mp3');
+            audio.play();
+        default:
+            break;

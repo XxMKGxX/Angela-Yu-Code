@@ -1,0 +1,10 @@
+What is Node JS?
+
+--We have learnt that we can use javascript to create a backend for our web Development.
+--The reason why we are using node is because it allows us to do so.
+--We do not have to learn another language that can help us do so.
+--Its fast and allows to create really scalable and fast websites.
+--Since Javascript is only allowed to be accessed on a browser, node allows that js to be in contact with the hardware of a computer.
+--Meaning it works like a server that can run from the computer.
+--This allows the js to be used to write applications that can function on the computer.
+--This module will help us to make apps in contact with the computer not the browser.

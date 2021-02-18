@@ -1,0 +1,19 @@
+Version Control Using Git and the Command Line.
+
+--The termianl can also be used as a text editor: vim filename.txt
+--Keep In Mind that it is for people who are very familiar with this text editor.
+--To start off, git needs to be initialised: git init(inside the terminal)
+--We get information back telling us we created this repository inside the current folder but we cant see it inside the file explorer.
+--But we can see it inside the terminal by using ls -a
+--This will be used to track changes, commit changes and use version control.
+--To track the working file we need to add it inside what is known as a staging area
+--This is were picking and chosing of files to commit can be done.
+--To see that we use git status(Since this hasnt been tracked it will show that there are files that havent been tracked)
+--Use git add file name in order to track it.
+--Once done commit the changes by using git commit -m "commit message"
+--The -m shows the commit message that is written in the present tense.
+--Its important that you are specific with what has been done when committing.
+--To check the commited files we write git log.
+--To add all files inside the dir into the repository we type in git add .
+--To rollback we can also use git checkout to go back to the last savepoint
+--To make the right choice we can use git diff filename

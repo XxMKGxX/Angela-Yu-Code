@@ -1,0 +1,13 @@
+Using Keyboard Event Listeners to Check for Key Presses
+
+--Since we have been using the click input for our Event Listener, now we want to use keydown for keyboard presses
+--Be aware that they are in lowercases.
+
+--By writing this code:
+    document.addEventListener("keydown", function() {
+        alert("key Was pressed!")
+    });
+  we will be able to set the page to be in contact with our keyboard press and lets us know that a key was pressed.
+
+--Now in order for the keys to work we need an event inside the function parameter.
+--Then we call in a function that can run that event paramter i.e makesound(event.key);

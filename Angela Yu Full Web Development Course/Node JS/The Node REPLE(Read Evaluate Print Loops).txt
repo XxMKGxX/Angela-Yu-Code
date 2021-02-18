@@ -1,0 +1,9 @@
+REPL (Read Evaluate Print Loops).
+
+--This allows us to run code in bite sized chunks in our terminal.
+--This is similar to chrome developer tools in the console and this is found inside the node executable.
+--To get access to it we just type node in the terminal.
+--Just like the dev tools we just console.log and it will print it out in the terminal.
+--A shortcut we can use is by writing a specific command and when we press tab twice it gives us the commands that we can use.
+--To exit the REPL we can use .exit or CTRL + C twice.
+--To clear the console we can simply write clear.

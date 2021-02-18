@@ -1,0 +1,35 @@
+Passing Data from Webpage to Server
+
+--At some point we want to shorten our date code and that can be done by using the #toLocaleDateString method.
+--This allows us to format javascript into any format desired.
+    Example:
+        day:
+        The representation of the day.
+        Possible values are "numeric", "2-digit".
+        weekday:
+        The representation of the weekday.
+        Possible values are "narrow", "short", "long".
+        https://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date //More details on the types of formats.
+--The basics of this method is to return a date as a string value appropriate to the host environment's current locale.
+--The locale being a region.
+    var options = {
+        weekday: "long",
+        day: "numeric",
+        month: "long"
+    };
+
+    var day = today.toLocaleDateString("en-US", options)//Options accepts the changes made previously.
+--Since this has been written we can remove the control flow code inside the ejs file and just type in kindOfDay.
+--NOTE THAT when using .body inside the post method, make sure that this is typed in:
+    app.use(bodyPareser.urlencode({ extended: true })); //Put it in between const and app.
+--This will bring the added data inside our server. Now that data needs to be returned to the website.
+--The render method cannot be used for post because it belongs in the get method. It cannot get and post at the same time.
+--We then put the var newListItem with the kindOfDay var as the second parameter and with its value req.body.newItem 
+--NOTE THAT the req.body.newItem needs to be put inside a var.
+--Once that is done we put in res.redirect("/") inside the post method.
+--What this does is that it renders the post method and once its done, it goes back to the get method which will render in the 2 var with their values.
+--As convoluted( extremely complex and difficult to follow) as this is, it still brings in an error that states item is not defined.
+--Since it is in the post method not the get method.
+--This can be resolved by puting a var items = [];
+--Once the items var has been called it can push the new item variable into items.push(item);
+--Keep in mind that code can still be added inside the items array. //Arrays need "" in order to write it into the website.

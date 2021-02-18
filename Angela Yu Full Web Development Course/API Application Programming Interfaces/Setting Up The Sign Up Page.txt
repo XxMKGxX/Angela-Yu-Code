@@ -1,0 +1,14 @@
+Setting Up the Sign up Page for our Newsletter page.
+
+--The module needed are request, body-parser and express.
+--When shortening development in terms of looking for templates, the use of bootstrap is a great idea.
+--In their examples tab we find different templates and pieces of code that can be copied and pasted inside the desired project.
+--Once the file is completed being customized by bootstrap we can send file onto the sertver.
+--NOTE THAT this does not replicate the changes yet on our server.
+--This is because our stylesheet is local not on the internet.(static page)
+--in order to serve them we use an in bulit express function called app.use(express.static("public"));
+--The string public represents a folder which is put inside the current folder
+--That way it can get access to these file and they can be implemented inside the server.
+--NOTE THAT these static images and css files have to be put inside the folder in order for this to work.
+--When creating a new project it is quite that the packages express and body-parser are used, so then add the uses inside the js file.
+--Make sure to specify the POST method and action inside the form tag when receiving data from the user.

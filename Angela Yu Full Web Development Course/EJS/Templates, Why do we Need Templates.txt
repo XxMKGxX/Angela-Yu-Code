@@ -1,0 +1,20 @@
+Templates. Why are they needed.
+
+--QUICK TIP. When installin npm packages we can use the shortcut i for install in order to shorten it.
+--Templates come in handy especially when making the begining parts of a project.
+--Considering that fact that we use the same packages again and again its important to shorten the development time.
+--At this point writing logic code helps with the processing of the server in order for it to send data back to the browser.
+    //This is found inside the app.get function
+    var today = new Date();
+
+    if today.getDay() === 6//Saturday// ||//or// today.getDay() === 0) {
+        res.send("Yay its the weekend!");
+    } else {
+        res.send("Boo! i have to work");
+    }
+--In this case, res.send can be used twice because it is the final response and it is not going to be used twice.
+--That means one of the if else statements is correct not both of them.
+--To send multiple pieces of data to the browser we use res.write()
+--Make sure to put res.send so that it sends all these messages back to the browser.
+--But that can bring a strain in terms of writing all the time.
+--Use res.sendFile(__dirname + "/index.html") to send the  file with that html content.

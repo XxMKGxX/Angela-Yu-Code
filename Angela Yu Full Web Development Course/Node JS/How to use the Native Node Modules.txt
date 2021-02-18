@@ -1,0 +1,14 @@
+Native Node Modules.
+
+--Node has different types of modules when installed and there is a documentation that can help to use them.
+    https://nodejs.org/dist/latest-v14.x/docs/api/(Link to documentation)
+--We have the file system which helps to get access to the local files.
+--In order for us to use this module, we need to require of it.
+--We write this code: const fs = require('fs');
+--The keyword const is different from var because this means the value of that specific constant cannot be changed.
+--fs stands for file system.
+--The use of the require statement allows us to use the modeule for now its the fs or file system module.
+--The file system allows us to open, read, create files etc and the documentation gives us more on that.
+--Through the methods given in the documentation: 
+    fs.copyFileSync("file name", "destination file name")
+--we just need to run the file(node index.js) and this will complete the task that has been given inside the js file.

@@ -1,0 +1,18 @@
+The Concept Of Scope in the Context Of Javascript.
+
+--Scope is not only used in Javscript but also in different languages.
+--Consider this code:
+    function a {
+        var x = 2;
+        console.log(x);
+    };
+    console.log(x)
+--The scope of var x is accesible to function meaning it can be changed inside not outside the curly braces of function a.
+--These are known as local variables.
+--Global var can be called inside or outside a function but they have to be located outside of any function.
+--Here is the difference:
+    Local variables are vars located inside a function and only work when called inside that function.
+    Global variables are vars located outside a function that can be accessed and used inside that file.
+--If a var is created inisde control flow code that var is global. It can be accessed.
+--Unlike var, let and const are local vars inside that control flow code.
+--In cinclusion it is best to use let and const wherever possible.

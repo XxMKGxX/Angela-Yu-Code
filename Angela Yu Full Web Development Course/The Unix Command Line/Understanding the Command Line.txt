@@ -1,0 +1,8 @@
+Understanding the Command Line.
+
+--The shell in computing is the user interface of your machine.
+--The Kernel being the hardware.
+--The Bash shell is known as the Bourne Again Shell(Mr Bourne)
+--It was created for the unix command line system.
+--The use of Command line is that it provides greater control.
+--Its easier and faster to do stuff e.g create folders.

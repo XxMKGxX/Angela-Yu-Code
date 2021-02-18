@@ -1,0 +1,8 @@
+--Instead of reading all the code given by the response, we can be more specific.
+    console.log(responseCode) //Remember this is found inside the callback function for the url.
+--We can check out these codes in the mdn documentations.
+--These can be useful especially when debugging our server to see certain errors.
+--A method called on can be used to search for data as a string.
+--The output given inside the terminal is hexadecimal code and when converted with a hexidecimal converter it turns out to be text.
+--To convert it into text from the JSON file we use the method JSON.parse(data), that way we get the data displayed as json like the browser.
+--JSON has more methods that can be used. 
