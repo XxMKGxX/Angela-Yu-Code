@@ -1,0 +1,7 @@
+Intro to Code Sandbox.
+
+--This is a browser based development environment with React in mind.
+--The npm packages can be used inside this environment.
+--This will be used to introduce me to new skills inside React and practice them.
+--This will level up my knowledge of react to develop and release the code to see its functionality.
+--Sandbox is similar to vs code but when the code has been written it displays right away.

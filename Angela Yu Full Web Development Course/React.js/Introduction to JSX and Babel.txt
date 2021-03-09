@@ -1,0 +1,16 @@
+Intro to JSX and Babel.
+
+--When it comes to the id which are inline with our react we create a div with an id of root in order for there to be a connection wiht react and html.
+--like most scripts we link them at the bottom before the closing body tag.
+--At the begining of every project we get the dependacies from npm but in code sandbox we just search it and its installed.
+--We also need to require that dependacy in order for it to work.
+--We create a var and name it React which will = require("react")// The string react being the dependancy.
+--In order for us to render something on our screen we use the render function.
+--THis function takes in 3 inoputs: 1. What to show, 2. Where to show it, 3.
+--This way of writing code is known as JSX were we have html code right inside the body of a js file.
+--So inside that Javascript is a compiler known as Babel.
+--This takes in Code written in the future and then compiles it into a format that the browser can understand.
+--Like i have seen from Calebs work we can use import React from 'react' instead of using var.
+--By using these import an export keywors we are able to modulies react from its location.
+--When rendering the html code bear in mind that it only takes 1 html element not a whole html file.
+--In order for that to work we embed them into a div that acts as the body of that html file.

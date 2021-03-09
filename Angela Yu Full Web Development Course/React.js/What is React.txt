@@ -1,0 +1,8 @@
+--The definition given by the development team is A Javascript Library built for User Interfaces.
+--Essentially it is a front End Developing framework.
+--The objective is to build easier and faster user interfaces.
+--This provides different customizable options in which the user provides more data whilst the programmer writes less.
+--React sort of has html elements that work similarlly to HTML.
+--By using React we are keepimg the code clean, reusable and modular.
+--Like stated earlier these components are customisable to our liking.
+--Unlike in the past where we kept HTML CSS and JS seperate, React takes small parts of each language and puts them into one small component.
