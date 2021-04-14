@@ -1,0 +1,7 @@
+React Props
+
+--When it comes to adding html elements we have attributes that assist with the display of our website.
+--For instance an Input element has attributes such as placeholder, value and ids.
+--Bear in mind that these can also be used inside the HTML file as a seperate element from the div.
+--Even though there are so many attributes, this does not give us the impression that we can create our own attributes.
+--In the react world these custom attributes are known as properties.
